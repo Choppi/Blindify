@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Pop",
+        "color": "#9E9C13",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Rock",
+        "color": "#C0519D",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Rap",
+        "color": "#9E2219",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "RNB",
+        "color": "#1D7C50",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Electro",
+        "color": "#307C35",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Jazz",
+        "color": "#719E36",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Métal",
+        "color": "#7C7525",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "Classique",
+        "color": "#C0923C",
+        "selected": false,
+        "filter": "STYLE"
+    },
+    {
+        "name": "1960s",
+        "color": "#9E573A",
+        "selected": false,
+        "filter": "DECADE"
+    },
+    {
+        "name": "1970s",
+        "color": "#7C3E49",
+        "selected": false,
+        "filter": "DECADE"
+    },
+    {
+        "name": "1980s",
+        "color": "#603D7C",
+        "selected": false,
+        "filter": "DECADE"
+    },
+    {
+        "name": "1990s",
+        "color": "#3A637C",
+        "selected": false,
+        "filter": "DECADE"
+    },
+    {
+        "name": "2000s",
+        "color": "#2D7C62",
+        "selected": false,
+        "filter": "DECADE"
+    },
+    {
+        "name": "2010s",
+        "color": "#567A34",
+        "selected": false,
+        "filter": "DECADE"
+    }
+]

@@ -1,0 +1,10 @@
+
+.home-spacing {
+    margin: 40px 0 20px 20px;
+    span {
+        opacity: 0.7;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

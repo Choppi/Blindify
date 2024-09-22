@@ -1,0 +1,28 @@
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(122, 124, 124);
+    border-radius: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+    color: white;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &.selected {
+        opacity: 1;
+        ::after {
+            content: '\2713';
+            position: absolute;
+            top: 0;
+            right: 2px;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+<div class="d-flex flex-column gap-l create-game">
+    <h1>Création de la partie</h1>
+
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Nom de la partie</mat-label>
+            <input [(ngModel)]="gameName" matInput name="gameName">
+        </mat-form-field>
+    </form>
+    <mat-form-field class="example-full-width">
+        <mat-label>Nombre de musiques</mat-label>
+        <mat-select [(ngModel)]="numberTracks" name="numberTracks">
+            @for (track of [15,30,45]; track track) {
+            <mat-option [value]="track">{{track}}</mat-option>
+            }
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-label>Nombre de participants</mat-label>
+        <mat-select [(ngModel)]="numberPlayers" name="numberPlayers">
+            @for (player of [20,50,100]; track player) {
+            <mat-option [value]="player">{{player}}</mat-option>
+            }
+        </mat-select>
+    </mat-form-field>
+    <h2>Avec quel theme souhaitez vous jouer ?</h2>
+    <h3>Genre musical</h3>
+    <div class="d-flex flex-wrap gap-s">
+        @for (item of categories; track $index) {
+        <app-card [category]="item"></app-card>
+        }
+    </div>
+    <h3>Décennies</h3>
+    <div class="d-flex flex-wrap gap-s">
+        @for (item of decades; track $index) {
+        <app-card [category]="item"></app-card>
+        }
+    </div>
+    <button type="button" class="example-form" mat-raised-button (click)="createGame()">Créer</button>
+</div>
